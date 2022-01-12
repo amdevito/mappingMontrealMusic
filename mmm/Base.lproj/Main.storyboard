@@ -231,7 +231,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="0d7-WQ-O3f">
-                                <rect key="frame" x="40" y="192" width="334" height="225.5"/>
+                                <rect key="frame" x="40" y="192" width="334" height="268.5"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="I6d-xq-soB">
                                         <rect key="frame" x="0.0" y="0.0" width="334" height="50"/>
@@ -253,7 +253,7 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xYu-Ip-ydg">
-                                        <rect key="frame" x="0.0" y="144" width="334" height="39"/>
+                                        <rect key="frame" x="0.0" y="144" width="334" height="82"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="82" id="CmC-RF-6kE" userLabel="height = 90"/>
                                         </constraints>
@@ -264,7 +264,7 @@
                                         </state>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" alpha="0.25" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Error Message" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AyY-cW-uFt">
-                                        <rect key="frame" x="0.0" y="205" width="334" height="20.5"/>
+                                        <rect key="frame" x="0.0" y="248" width="334" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" systemColor="systemRedColor"/>
                                         <nil key="highlightedColor"/>
@@ -277,7 +277,6 @@
                         <constraints>
                             <constraint firstItem="uvc-pN-M74" firstAttribute="trailing" secondItem="0d7-WQ-O3f" secondAttribute="trailing" constant="40" id="NZv-vw-U9h"/>
                             <constraint firstItem="0d7-WQ-O3f" firstAttribute="top" secondItem="uvc-pN-M74" secondAttribute="top" constant="148" id="p0k-LF-EQp"/>
-                            <constraint firstItem="uvc-pN-M74" firstAttribute="bottom" secondItem="0d7-WQ-O3f" secondAttribute="bottom" constant="564" id="wLF-PM-lY1"/>
                             <constraint firstItem="0d7-WQ-O3f" firstAttribute="leading" secondItem="uvc-pN-M74" secondAttribute="leading" constant="40" id="yii-Fq-UJF"/>
                         </constraints>
                     </view>
