@@ -15,34 +15,78 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="openPage" translatesAutoresizingMaskIntoConstraints="NO" id="y1t-vy-WeG">
-                                <rect key="frame" x="0.0" y="146" width="414" height="353"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="183" translatesAutoresizingMaskIntoConstraints="NO" id="m4X-So-7Si">
-                                <rect key="frame" x="67" y="507" width="294" height="28"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="center" spacing="27" translatesAutoresizingMaskIntoConstraints="NO" id="6dt-47-d2z">
+                                <rect key="frame" x="10" y="93" width="394" height="411"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kbp-uO-g4v">
-                                        <rect key="frame" x="0.0" y="0.0" width="44" height="28"/>
-                                        <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="16"/>
-                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                        <state key="normal" title="Login">
-                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fee-o3-yfG">
-                                        <rect key="frame" x="227" y="0.0" width="67" height="28"/>
-                                        <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="16"/>
-                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                        <state key="normal" title="Register">
-                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                    </button>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="openPage" translatesAutoresizingMaskIntoConstraints="NO" id="y1t-vy-WeG">
+                                        <rect key="frame" x="0.0" y="0.0" width="394" height="324"/>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="121" translatesAutoresizingMaskIntoConstraints="NO" id="m4X-So-7Si">
+                                        <rect key="frame" x="19" y="351" width="356" height="60"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kbp-uO-g4v">
+                                                <rect key="frame" x="0.0" y="0.0" width="106" height="60"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="     Login     ">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fee-o3-yfG">
+                                                <rect key="frame" x="227" y="0.0" width="129" height="60"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="     Register     ">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="IdY-ho-oh9"/>
+                                        </constraints>
+                                    </stackView>
                                 </subviews>
                             </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NBd-Oy-WpK">
+                                <rect key="frame" x="57" y="776" width="300" height="60"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cohdsLogo" translatesAutoresizingMaskIntoConstraints="NO" id="m8k-a1-n7C">
+                                        <rect key="frame" x="0.0" y="0.0" width="150" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="150" id="IEJ-lA-wxI"/>
+                                            <constraint firstAttribute="height" constant="60" id="MWp-1y-0IM"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="allabLogo" translatesAutoresizingMaskIntoConstraints="NO" id="vmQ-GR-Wkv">
+                                        <rect key="frame" x="150" y="0.0" width="150" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="150" id="1VI-du-Zll"/>
+                                            <constraint firstAttribute="height" constant="60" id="UjX-Zk-zXl"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="cjloLogoSml" translatesAutoresizingMaskIntoConstraints="NO" id="KST-nW-UJN">
+                                <rect key="frame" x="207" y="721" width="187" height="47"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="0lY-px-JpP"/>
+                                    <constraint firstAttribute="width" constant="150" id="Ex5-t2-wHu"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="canRadioLogo" translatesAutoresizingMaskIntoConstraints="NO" id="vWi-ab-GUV">
+                                <rect key="frame" x="76" y="721" width="131" height="47"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="KoE-an-7dr"/>
+                                    <constraint firstAttribute="width" constant="150" id="L1P-p3-aBx"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.86268192529999999" green="0.85495346780000003" blue="0.85098034140000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6dt-47-d2z" secondAttribute="trailing" constant="10" id="6iL-fu-HFT"/>
+                            <constraint firstItem="6dt-47-d2z" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="g2M-tk-agq"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -57,6 +101,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="allabLogo" width="150" height="33"/>
+        <image name="canRadioLogo" width="100" height="39"/>
+        <image name="cjloLogoSml" width="80" height="48"/>
+        <image name="cohdsLogo" width="150" height="37"/>
         <image name="openPage" width="400" height="324"/>
     </resources>
 </document>
