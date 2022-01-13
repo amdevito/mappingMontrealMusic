@@ -172,6 +172,9 @@
                                 <state key="normal" title="Register">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="registerTapped:" destination="AgB-o0-uva" eventType="touchUpInside" id="nOn-Wt-6qu"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.25" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Error Message" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vmX-nI-c3G">
                                 <rect key="frame" x="40" y="554" width="334" height="45"/>
@@ -197,6 +200,14 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="JlH-Rq-Edk"/>
+                    <connections>
+                        <outlet property="emailTextField" destination="MUx-N0-wBC" id="VME-MM-EHg"/>
+                        <outlet property="errorLabel" destination="vmX-nI-c3G" id="XQx-ul-3Zp"/>
+                        <outlet property="homeHoodTextField" destination="hIq-mx-PhS" id="HK1-VT-aWJ"/>
+                        <outlet property="nameTextField" destination="s5P-aA-n54" id="WjC-6a-32g"/>
+                        <outlet property="passwordTextField" destination="oBU-km-Bzr" id="5Go-vv-SmW"/>
+                        <outlet property="registerButton" destination="zBf-yh-dVO" id="nmI-LY-UMa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wTv-ER-7qb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -269,6 +280,9 @@
                                         <state key="normal" title="Login">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="loginTapped:" destination="OMv-cK-6DC" eventType="touchUpInside" id="PTg-Zc-8k1"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" alpha="0.25" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Error Message" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AyY-cW-uFt">
                                         <rect key="frame" x="0.0" y="248" width="334" height="20.5"/>
@@ -288,6 +302,12 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="hIB-Ft-L3H"/>
+                    <connections>
+                        <outlet property="emailTextField" destination="I6d-xq-soB" id="k1D-O2-cfH"/>
+                        <outlet property="errorLabel" destination="AyY-cW-uFt" id="Vtp-2C-PiN"/>
+                        <outlet property="loginButton" destination="xYu-Ip-ydg" id="hBt-df-nnz"/>
+                        <outlet property="passwordTextField" destination="DGa-XU-K34" id="eSa-RN-YVp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jba-Ba-Efa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

@@ -9,6 +9,20 @@ import UIKit
 
 class RegisterViewController: UIViewController {
 
+    
+    @IBOutlet weak var nameTextField: UITextField!
+    
+    @IBOutlet weak var homeHoodTextField: UITextField!
+    
+    @IBOutlet weak var emailTextField: UITextField!
+    
+    @IBOutlet weak var passwordTextField: UITextField!
+    
+    @IBOutlet weak var registerButton: UIButton!
+    
+    @IBOutlet weak var errorLabel: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -26,4 +40,6 @@ class RegisterViewController: UIViewController {
     }
     */
 
+    @IBAction func registerTapped(_ sender: Any) {
+    }
 }
