@@ -35,6 +35,9 @@
                                                 <state key="normal" title="     Login     ">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <segue destination="OMv-cK-6DC" kind="show" id="eXp-Y0-ZLB"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fee-o3-yfG">
                                                 <rect key="frame" x="188" y="0.0" width="157" height="80"/>
@@ -46,6 +49,9 @@
                                                 <state key="normal" title="     Register     ">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <segue destination="AgB-o0-uva" kind="show" id="kzX-31-nPW"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -190,6 +196,7 @@
                             <constraint firstItem="vmX-nI-c3G" firstAttribute="trailing" secondItem="zBf-yh-dVO" secondAttribute="trailing" id="v29-B0-grj"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="JlH-Rq-Edk"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wTv-ER-7qb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -280,6 +287,7 @@
                             <constraint firstItem="0d7-WQ-O3f" firstAttribute="leading" secondItem="uvc-pN-M74" secondAttribute="leading" constant="40" id="yii-Fq-UJF"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="hIB-Ft-L3H"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jba-Ba-Efa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
