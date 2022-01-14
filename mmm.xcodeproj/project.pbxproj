@@ -13,6 +13,8 @@
 		7A7DCA6A278EF6A700041552 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A7DCA68278EF6A700041552 /* Main.storyboard */; };
 		7A7DCA6C278EF6A800041552 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A7DCA6B278EF6A800041552 /* Assets.xcassets */; };
 		7A7DCA6F278EF6A800041552 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A7DCA6D278EF6A800041552 /* LaunchScreen.storyboard */; };
+		7A8393C12791961900CBD656 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8393BF2791961900CBD656 /* Constants.swift */; };
+		7A8393C22791961900CBD656 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8393C02791961900CBD656 /* Utilities.swift */; };
 		7AB931FF278F5D1300B75D28 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB931FE278F5D1300B75D28 /* RegisterViewController.swift */; };
 		7AB93201278F5D5900B75D28 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB93200278F5D5900B75D28 /* LoginViewController.swift */; };
 		7AB93203278F5D8300B75D28 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB93202278F5D8300B75D28 /* HomeViewController.swift */; };
@@ -27,6 +29,8 @@
 		7A7DCA6B278EF6A800041552 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A7DCA6E278EF6A800041552 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A7DCA70278EF6A800041552 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A8393BF2791961900CBD656 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7A8393C02791961900CBD656 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		7AB931FE278F5D1300B75D28 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		7AB93200278F5D5900B75D28 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		7AB93202278F5D8300B75D28 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -62,15 +66,25 @@
 		7A7DCA61278EF6A700041552 /* mmm */ = {
 			isa = PBXGroup;
 			children = (
-				7AB93204278F5D9700B75D28 /* ViewControllers */,
 				7A7DCA62278EF6A700041552 /* AppDelegate.swift */,
 				7A7DCA64278EF6A700041552 /* SceneDelegate.swift */,
+				7A8393C32791962600CBD656 /* Helpers */,
+				7AB93204278F5D9700B75D28 /* ViewControllers */,
 				7A7DCA68278EF6A700041552 /* Main.storyboard */,
 				7A7DCA6B278EF6A800041552 /* Assets.xcassets */,
 				7A7DCA6D278EF6A800041552 /* LaunchScreen.storyboard */,
 				7A7DCA70278EF6A800041552 /* Info.plist */,
 			);
 			path = mmm;
+			sourceTree = "<group>";
+		};
+		7A8393C32791962600CBD656 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7A8393BF2791961900CBD656 /* Constants.swift */,
+				7A8393C02791961900CBD656 /* Utilities.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		7AB93204278F5D9700B75D28 /* ViewControllers */ = {
@@ -159,7 +173,9 @@
 				7A7DCA63278EF6A700041552 /* AppDelegate.swift in Sources */,
 				7A7DCA65278EF6A700041552 /* SceneDelegate.swift in Sources */,
 				7AB93201278F5D5900B75D28 /* LoginViewController.swift in Sources */,
+				7A8393C12791961900CBD656 /* Constants.swift in Sources */,
 				7AB931FF278F5D1300B75D28 /* RegisterViewController.swift in Sources */,
+				7A8393C22791961900CBD656 /* Utilities.swift in Sources */,
 				7AB93203278F5D8300B75D28 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
