@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A134A3527920AE700D38BDE /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 7A134A3427920AE700D38BDE /* FirebaseFirestore */; };
 		7A7DCA63278EF6A700041552 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7DCA62278EF6A700041552 /* AppDelegate.swift */; };
 		7A7DCA65278EF6A700041552 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7DCA64278EF6A700041552 /* SceneDelegate.swift */; };
 		7A7DCA67278EF6A700041552 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7DCA66278EF6A700041552 /* ViewController.swift */; };
@@ -43,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A134A3527920AE700D38BDE /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +119,9 @@
 			dependencies = (
 			);
 			name = mmm;
+			packageProductDependencies = (
+				7A134A3427920AE700D38BDE /* FirebaseFirestore */,
+			);
 			productName = mmm;
 			productReference = 7A7DCA5F278EF6A700041552 /* mmm.app */;
 			productType = "com.apple.product-type.application";
@@ -145,6 +150,9 @@
 				Base,
 			);
 			mainGroup = 7A7DCA56278EF6A700041552;
+			packageReferences = (
+				7A134A3327920AE700D38BDE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 7A7DCA60278EF6A700041552 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -402,6 +410,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7A134A3327920AE700D38BDE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7A134A3427920AE700D38BDE /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7A134A3327920AE700D38BDE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7A7DCA57278EF6A700041552 /* Project object */;
 }
