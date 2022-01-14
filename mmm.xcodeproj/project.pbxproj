@@ -18,6 +18,7 @@
 		7AB931FF278F5D1300B75D28 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB931FE278F5D1300B75D28 /* RegisterViewController.swift */; };
 		7AB93201278F5D5900B75D28 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB93200278F5D5900B75D28 /* LoginViewController.swift */; };
 		7AB93203278F5D8300B75D28 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB93202278F5D8300B75D28 /* HomeViewController.swift */; };
+		7ADB45BC2791FDD500DA036A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7ADB45BB2791FDD500DA036A /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		7AB931FE278F5D1300B75D28 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		7AB93200278F5D5900B75D28 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		7AB93202278F5D8300B75D28 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7ADB45BB2791FDD500DA036A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				7AB93204278F5D9700B75D28 /* ViewControllers */,
 				7A7DCA68278EF6A700041552 /* Main.storyboard */,
 				7A7DCA6B278EF6A800041552 /* Assets.xcassets */,
+				7ADB45BB2791FDD500DA036A /* GoogleService-Info.plist */,
 				7A7DCA6D278EF6A800041552 /* LaunchScreen.storyboard */,
 				7A7DCA70278EF6A800041552 /* Info.plist */,
 			);
@@ -157,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A7DCA6F278EF6A800041552 /* LaunchScreen.storyboard in Resources */,
+				7ADB45BC2791FDD500DA036A /* GoogleService-Info.plist in Resources */,
 				7A7DCA6C278EF6A800041552 /* Assets.xcassets in Resources */,
 				7A7DCA6A278EF6A700041552 /* Main.storyboard in Resources */,
 			);

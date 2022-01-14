@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>433745047905-aiivrjkb701ldgmig9576kfugl319sl2.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.433745047905-aiivrjkb701ldgmig9576kfugl319sl2</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA0yzdOlVVmApYCLEyUfnH0uxpRRuVeEuc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>433745047905</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>CJLO.mmm</string>
+	<key>PROJECT_ID</key>
+	<string>mappingmontrealmusic</string>
+	<key>STORAGE_BUCKET</key>
+	<string>mappingmontrealmusic.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:433745047905:ios:cda5e8bfdec26d4ca2d520</string>
+</dict>
+</plist>
