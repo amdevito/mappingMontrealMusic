@@ -220,7 +220,7 @@
         <!--Home View Controller-->
         <scene sceneID="Ftc-lB-cCF">
             <objects>
-                <viewController id="I1a-PJ-2vn" customClass="HomeViewController" customModule="mmm" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeVC" id="I1a-PJ-2vn" customClass="HomeViewController" customModule="mmm" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qJf-dU-V91">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

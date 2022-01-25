@@ -61,14 +61,14 @@ class RegisterViewController: UIViewController {
         
         if Utilities.isPasswordValid(cleanedPassword) == false {
             // Password isn't secure enough
-            return "Please make sure your password is at least 8 characters, contains a special character and a number."
+            return "Please make sure your password is at least 9 characters, contains a special character and a number."
         }
         
         return nil
     }
     
 
-    @IBAction func signUpTapped(_ sender: Any) {
+    @IBAction func registerTapped(_ sender: Any) {
         
         // Validate the fields
         let error = validateFields()
@@ -93,14 +93,14 @@ class RegisterViewController: UIViewController {
                 if err != nil {
                     
                     // There was an error creating the user
-                    self.showError("Error creating user")
+                    self.showError("Error, user exists.")
                 }
                 else {
                     
                     // User was created successfully, now store the first name and last name
                     let db = Firestore.firestore()
                     
-                    db.collection("users").addDocument(data: ["name":name, "home hood":homeHood, "uid": result!.user.uid ]) { (error) in
+                    db.collection("users").addDocument(data: ["name":name, "homeHood":homeHood,"email":email,"password":password, "uid": result!.user.uid ]) { (error) in
                         
                         if error != nil {
                             // Show error message
