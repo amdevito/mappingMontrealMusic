@@ -2,7 +2,7 @@
 //  LoginViewController.swift
 //  mmm
 //
-//  Created by AM Devito on 2022-01-12.
+//  Created by AM DeVito on 2022-01-12.
 //
 
 import UIKit
@@ -34,7 +34,7 @@ class LoginViewController: UIViewController {
     
     @IBAction func loginTapped(_ sender: Any) {
         
-        // TODO: Validate Text Fields
+        // Validate Text Fields
         
         // Create cleaned versions of the text field
         let email = emailTextField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
@@ -45,6 +45,8 @@ class LoginViewController: UIViewController {
             
             if error != nil {
                 // Couldn't sign in
+                //use 'self' in closures to be more specific on what you  are referencing
+                ///currently - the localizedDescription prints "there is no user record corresponding to this identifier. The user may have been deleted." might be clearer to change to "user not found" > LOOK UP HOW TO CHANGE THIS? OR IF THERE ARE OTHER OPTIONS. /// Password incorrect prints, "The password is unvalid or the user does not have a password." This is  good.
                 self.errorLabel.text = error!.localizedDescription
                 self.errorLabel.alpha = 1
             }

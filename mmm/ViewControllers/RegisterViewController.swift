@@ -1,9 +1,8 @@
 //////
-//  LoginViewController.swift
-//  CustomLoginDemo
-//
-//  Created by Christopher Ching on 2019-07-22.
-//  Copyright © 2019 Christopher Ching. All rights reserved.
+////  RegisterViewController.swift
+////  mmm
+////
+////  Created by AM DeVito on 2022-01-12.
 //
 
 import UIKit
@@ -104,7 +103,7 @@ class RegisterViewController: UIViewController {
                         
                         if error != nil {
                             // Show error message
-                            self.showError("Error saving user data")
+                            self.showError("Error saving user data, please try again.")
                         }
                     }
                     
@@ -137,59 +136,7 @@ class RegisterViewController: UIViewController {
 }
 
 
-////  RegisterViewController.swift
-////  mmm
+
 ////
-////  Created by AM Devito on 2022-01-12.
-////
-//
-//import UIKit
-//
-//class RegisterViewController: UIViewController {
-//
-//
-//    @IBOutlet weak var nameTextField: UITextField!
-//
-//    @IBOutlet weak var homeHoodTextField: UITextField!
-//
-//    @IBOutlet weak var emailTextField: UITextField!
-//
-//    @IBOutlet weak var passwordTextField: UITextField!
-//
-//    @IBOutlet weak var registerButton: UIButton!
-//
-//    @IBOutlet weak var errorLabel: UILabel!
-//
-//
-//    override func viewDidLoad() {
-//        super.viewDidLoad()
-//
-//        // Do any additional setup after loading the view.
-//        setUpElements()
-//    }
-//
-//    func setUpElements(){
-//        errorLabel.alpha = 0
-//    }
-//
-//    //Check the fields and validate that the data is correct. If verything is correct, this method returns nil. Otherwise, it returns the errormessage
-//    func validateFields() -> String? {
-//        //check that all fields are filled in
-//        if nameTextField.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" ||  homeHoodTextField.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" ||  emailTextField.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" ||  passwordTextField.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" || {
-//
-//            return "Please fill in all fields."
-//        }
-//
-//        return nil
-//    }
-//
-//    @IBAction func registerTapped(_ sender: Any) {
-//
-//        //Validate the fields
-//
-//        //Create the user
-//
-//        //transition to the home screen
-//    }
-//}
+
 //
