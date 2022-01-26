@@ -61,7 +61,7 @@ class RegisterViewController: UIViewController {
         
         if Utilities.isPasswordValid(cleanedPassword) == false {
             // Password isn't secure enough
-            return "Please make sure your password is at least 9 characters, contains a special character and a number."
+            return "Please make sure your password is at least 9 characters, contains a capital letter, a special character and a number."
         }
         
         return nil
